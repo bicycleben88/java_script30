@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="apps.js" defer></script>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cards">
+      <div data-key="68" class="card">
+        <img src="https://i.imgur.com/DXfg1zO.png" alt="rocks glass" />
+        <kbd>D</kbd>
+        <span>Make a Drink</span>
+      </div>
+      <div data-key="67" class="card">
+        <img src="https://i.imgur.com/lUYBHfw.jpg" alt="ashtray" />
+        <kbd>C</kbd>
+        <span>Light a Cigarette</span>
+      </div>
+      <div data-key="90" class="card">
+        <img src="https://i.imgur.com/EdTYD9g.jpg" alt="unzipping" />
+        <kbd>Z</kbd>
+        <span>unZip</span>
+      </div>
+      <div data-key="75" class="card">
+        <img src="https://i.imgur.com/72mBYSv.jpg" alt="lips" />
+        <kbd>K</kbd>
+        <span>Give a Kiss</span>
+      </div>
+    </div>
+
+    <audio data-key="68" src="sounds/ice-in-glass.wav"></audio>
+    <audio data-key="67" src="sounds/cig.wav"></audio>
+    <audio data-key="90" src="sounds/zip.wav"></audio>
+    <audio data-key="75" src="sounds/kiss.wav"></audio>
+  </body>
+</html>
