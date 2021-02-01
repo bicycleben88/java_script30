@@ -36,8 +36,10 @@ body {
   background: black;
   position: absolute;
   top: 50%;
-  transform-origin: 100%; /* rotation begins @ center of clock */
-  transform: rotate(90deg); /* starts hands @ 12 */
-  /* transition: all 0.05s; along w/ timing function gives 'ticking' effect to hand */
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+.transition {
+  transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.54, 0.41, 0, 3.22);
 }
