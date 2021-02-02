@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css"></link>
+  <script src="app.js" defer></script>
+  <title>Scoped CSS Variables and JS</title>
+</head>
+<body>
+  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    <label for="opcaity">Opacity:</label>
+    <input id="opcaity" type="range" name="fade" min="0" max="10" value="5">
+
+    <label for="translate">Translate:</label>
+    <input id="translate" type="range" name="move" min="-250" max="250" value="10" data-sizing="px">
+
+    <label for="rotate">Rotate:</label>
+    <input id="rotate" type="range" name="deg" min="-360" max="360" value="0" data-sizing="deg">
+
+  </div>
+
+  <img src="https://i.imgur.com/MEVhccB.jpg" />
+
+</body>
+</html>
