@@ -1,5 +1,7 @@
 # Day 1 Drum Kit
 
+[Walkthru of Code](https://www.youtube.com/watch?v=EIFLlg2M-qA)
+
 ## Task:
 
 > - Play audio file after pressing a key
