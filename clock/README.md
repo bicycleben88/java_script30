@@ -23,13 +23,13 @@
 > - Function
 >   - get the current time
 >   - use math to position hand(s) at correct time
->     ![js-math](https://i.imgur.com/Pn98nSO.png)
+>   -  ![js-math](https://i.imgur.com/Pn98nSO.png)
 >   - get current seconds
 >     - if (the second hand hits 0)
 >       - remove transition to prevent the hand from skipping forward before resetting
 >     - else - add transition class to give the 'ticking' effect to the second hand
 >   - grab DOM element & add transform rotate(degrees calculated above)
->     ![js-remove-class](https://i.imgur.com/Pk3Ypya.png)
+>   - ![js-remove-class](https://i.imgur.com/Pk3Ypya.png)
 >   - repeat the same logic for minute and hour hands w/o adding or removing transition class.
 
 ## Source
