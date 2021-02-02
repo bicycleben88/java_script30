@@ -6,15 +6,14 @@ function setDate() {
   const now = new Date();
 
   const seconds = now.getSeconds();
-  // Arithmetic to correlate degree of hand to the current second
   const secondsDegrees = (seconds / 60) * 360 + 90;
+
   if (seconds === 0) {
     secondHand.classList.remove("transition");
-    secondHand.style.transform = `rotate(90deg)`;
   } else {
     secondHand.classList.add("transition");
-    secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
   }
+  secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
   const minutes = now.getMinutes();
   const minsDegrees = (minutes / 60) * 360 + 90;
@@ -25,4 +24,4 @@ function setDate() {
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 }
 
-setInterval(setDate, 1000); // run function every second
+setInterval(setDate, 1000);

@@ -1,5 +1,7 @@
 # Day 2 Clock
 
+[Walkthru of Code](https://www.youtube.com/watch?v=lRuZEltTHLc)
+
 ## Task
 
 > - Create Clock w/ moving hands

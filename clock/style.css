@@ -40,6 +40,6 @@ body {
   transform: rotate(90deg);
 }
 .transition {
-  transition: all 0.05s;
+  transition: all 0.5s;
   transition-timing-function: cubic-bezier(0.54, 0.41, 0, 3.22);
 }
