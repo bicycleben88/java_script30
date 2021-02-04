@@ -1,6 +1,6 @@
 # Day 4 Array Cardio
 
-[Walkthru of Code](https://youtu.be/wjTlqltG0RU)
+[Walkthru of Code](https://youtu.be/yuVMHOZ65UA)
 
 ## Task:
 
