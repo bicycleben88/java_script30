@@ -19,9 +19,9 @@
 >   - flex: 1 - occupy any extra white space evenly with all Flex items w/in .panels container
 >   - Flex container for child elements inside of each panel
 >   - Center items & arrange child elements in a column
->     ![panel-class](https://i.imgur.com/HSGUjRr.png)
+>   - ![panel-class](https://i.imgur.com/HSGUjRr.png)
 >   - Add class of open to { transition: expand image panel & increase font }
->     ![transform](https://i.imgur.com/vQCDMyD.png)
+>   - ![transform](https://i.imgur.com/vQCDMyD.png)
 > - .panel > \*
 >   - the child elements of each .panel
 >   - Flex item of .panel & Flex container
@@ -31,7 +31,7 @@
 > - .panel >\*:first-child &.panel >\*:last-child
 >   - { transform: translateY(move text off of screen) }
 >   - Add class of open-active to move text onto screen
->     ![open-class](https://i.imgur.com/VTB9o6j.png)
+>   - ![open-class](https://i.imgur.com/VTB9o6j.png)
 
 ### JavaScript
 
@@ -40,4 +40,4 @@
 > - Functions
 >   - add or remove class .open
 >   - add or remove .open-active
->     ![functions](https://i.imgur.com/x7DQJ8x.png)
+>   - ![functions](https://i.imgur.com/x7DQJ8x.png)
