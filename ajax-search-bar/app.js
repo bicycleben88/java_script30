@@ -7,7 +7,7 @@ const endpoint =
 const cities = [];
 
 fetch(endpoint)
-  .then((blob) => blob.json())
+  .then((response) => response.json())
   .then((data) => cities.push(...data));
 
 function findMatches(searchTerm, cities) {
@@ -19,7 +19,7 @@ function findMatches(searchTerm, cities) {
 
 function displayMatches() {
   const matchArray = findMatches(this.value, cities);
-  const html = matchArray
+  const htmlText = matchArray
     .map((place) => {
       const regex = new RegExp(this.value, "gi");
       const cityName = place.city.replace(
@@ -32,11 +32,11 @@ function displayMatches() {
       );
       return `
         <li>
-        <span class="name">${cityName}, ${stateName}</span>
+          <span class="name">${cityName}, ${stateName}</span>
         </li>`;
     })
     .join("");
-  suggestions.innerHTML = html;
+  suggestions.innerHTML = htmlText;
 }
 
 searchInput.addEventListener("change", displayMatches);
