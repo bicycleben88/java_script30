@@ -28,3 +28,4 @@
 >     - add CSS class .hl to city & state
 >     - create new \<li>
 >   - Add HTML elements to DOM
+>   - ![displayMatches](https://i.imgur.com/Y9FqS4U.png)
