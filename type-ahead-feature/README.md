@@ -1,6 +1,6 @@
-# Day 6 Ajax w/ search bar
+# Day 6 Type-ahead Feature
 
-[Walkthru of Code](ADD URL)!!
+[Walkthru of Code](https://youtu.be/lEtzC9KYWq8)
 
 ## Task
 
