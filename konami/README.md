@@ -19,7 +19,8 @@
 >     - takes three arguments (_index to start splicing_, _number of elements to delete_, _element to replace deleted elements_)
 >     - creates new array
 >   - if what user types matches the secret key
->     - add cornified icon to screen -![function](https://i.imgur.com/rRkPKLS.png)
+>     - add cornified icon to screen 
+>     - ![function](https://i.imgur.com/rRkPKLS.png)
 
 ## Source
 
