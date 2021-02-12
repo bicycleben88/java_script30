@@ -1,6 +1,6 @@
 # Day 11 Costume Video Player
 
-[Walkthru of Code](https://youtu.be/6Zl-8X3xGe0)
+[Walkthru of Code](https://youtu.be/bxGewHF6jhk)
 
 ## Task
 
