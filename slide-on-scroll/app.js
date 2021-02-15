@@ -1,22 +1,22 @@
 const sliderImages = document.querySelectorAll(".slide-in");
 
-function debounce(func, wait = 20, immediate = true) {
-  var timeout;
+function debounce(func, delay = 20, immediate = true) {
+  let timeout;
   return function () {
-    var context = this,
-      args = arguments;
-    var later = function () {
+    const context = this;
+    const args = arguments;
+    const callLater = () => {
       timeout = null;
       if (!immediate) func.apply(context, args);
     };
-    var callNow = immediate && !timeout;
+    const callNow = immediate && !timeout;
     clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
+    timeout = setTimeout(callLater, delay);
     if (callNow) func.apply(context, args);
   };
 }
 
-function checkSlide(e) {
+function checkSlide() {
   sliderImages.forEach((image) => {
     const slideInAt = window.scrollY + window.innerHeight - image.height / 2;
     const imageBottom = image.offsetTop + image.height;
