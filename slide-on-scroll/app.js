@@ -1,6 +1,6 @@
 const sliderImages = document.querySelectorAll(".slide-in");
 
-function debounce(func, delay = 20, immediate = true) {
+function debounce(func, delay = 10, immediate = true) {
   let timeout;
   return function () {
     const context = this;
