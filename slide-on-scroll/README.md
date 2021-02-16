@@ -1,6 +1,6 @@
 # Day 13 Slide In on Scroll Feature
 
-[Walkthru of Code](https://youtu.be/iKp8DgcDF7E)
+[Walkthru of Code](https://youtu.be/Y1Q3IXvNPt0)
 
 ## Task
 
