@@ -1,6 +1,6 @@
 # Day 16 CSS Text Shadow Mouse Move Event
 
-[Walkthru of Code](https://youtu.be/6GtxDqCYy68);
+[Walkthru of Code](https://youtu.be/6GtxDqCYy68)
 
 ## Task
 
@@ -14,7 +14,7 @@
 
 > - Grab DOM elements & add event listeners
 > - define range of text shadow
-> - ![query selector](/images/query-selector.png)
+> - ![query selector](images/query-selector.png)
 > - moveShadow()
 >   - get height & width of event listener
 >   - get coordinates of event
@@ -22,7 +22,7 @@
 >     - add the coordinates of the event target to the coordinates of the event
 >   - get the values of vertical & horizontal shadows
 >   - apply those values to the css
->   - ![function](/images/function.png)
+>   - ![function](images/function.png)
 
 ## Source
 
