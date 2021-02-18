@@ -16,13 +16,15 @@ const bands = [
   "An Old Dog",
 ];
 
-const strip = (bandName) => {
+const removeArticle = (bandName) => {
   return bandName.replace(/^(a |the |an )/i, "").trim();
 };
 
-const sorted = bands.sort((a, b) => (strip(a) > strip(b) ? 1 : -1));
+const sortedList = bands.sort((a, b) =>
+  removeArticle(a) > removeArticle(b) ? 1 : -1
+);
 
-bandsList.innerHTML = sorted
+bandsList.innerHTML = sortedList
   .map(
     (band) =>
       `
