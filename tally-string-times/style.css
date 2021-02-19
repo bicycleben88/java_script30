@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "DeadlyFinisher";
+  src: url("Back\ to\ School.ttf") format("truetype");
+}
+:root {
+  --white: #f3edf5;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+}
+body {
+  background-image: url("hero.jpeg");
+  background-size: cover;
+}
+h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 5em;
+  color: var(--white);
+  text-shadow: 2px 2px 0 #e2b2f1;
+}
+h1 strong {
+  font-family: "DeadlyFinisher";
+}
+ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  list-style: none;
+  color: var(--white);
+  border-right: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  margin: 3px auto;
+}
+#total {
+  justify-content: flex-end;
+}
