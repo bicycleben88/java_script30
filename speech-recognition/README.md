@@ -1,6 +1,6 @@
 # Day 20 Voice Recognition
 
-[Walkthru of Code](add.url)
+[Walkthru of Code](https://youtu.be/rZR_V9W0s6c)
 
 ## Task
 
@@ -30,6 +30,7 @@
 
 > - SpeechRecognition is part of the Web Speech API
 > - interimResults determine whether interim results should be returned (true) or not (false)
+> - .isFinal marks the end of the transcript
 
 ## Source
 
