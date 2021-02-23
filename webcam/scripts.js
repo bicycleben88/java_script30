@@ -14,7 +14,7 @@ function getVideo() {
     .catch((e) => console.error("No Dice", e));
 }
 
-function paintToCavas() {
+function paintToCanvas() {
   const width = video.videoWidth;
   const height = video.videoHeight;
   canvas.width = width;
@@ -51,4 +51,4 @@ function toGreyScale(pixels) {
 
 getVideo();
 
-video.addEventListener("canplay", paintToCavas);
+video.addEventListener("canplay", paintToCanvas);

@@ -1,6 +1,6 @@
 # Day 19 Webcam Fun
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/DC2BSgILeGs)
 
 ## Task
 
@@ -18,7 +18,7 @@
 > - ![get video function](images/get-video.png)
 > - paintToCanvas()
 >   - save height & width of video to variables
->   - set width to height of canvas to match those of video
+>   - set height & width of canvas to match those of video
 >   - draw image onto canvas
 >   - access pixels from image
 >   - send pixels to function that will alter them
@@ -26,7 +26,7 @@
 > - ![paint to canvas function](images/paint.png)
 > - takePhoto()
 >   - play audio file
->   - create URL from image (i.e bit64)
+>   - create URL from image (i.e base 64)
 >   - create \<a> tag
 >   - set href to url from image
 >   - add download attribute to \<a>
