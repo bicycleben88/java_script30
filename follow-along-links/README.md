@@ -1,6 +1,6 @@
 # Day 22 Follow Along Links
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/th8hq0euQBA)
 
 ## Task
 
@@ -18,6 +18,10 @@
 >   - ![coordinates](images/coords.png)
 >   - add CSS to highlight element using coordinates
 >   - ![css properies](images/css.png)
+
+## Notes
+
+> - getBoundingClientRect() provides information about the size of an element & its position relative to the viewport
 
 ## Source
 
