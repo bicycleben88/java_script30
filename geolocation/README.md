@@ -1,6 +1,6 @@
 # Day 21 Geolocation
 
-[Walkthru of Code](https://www.youtube.com/watch?v=lRuZEltTHLc)
+[Walkthru of Code](https://youtu.be/jh-2OoOem6c)
 
 ## Task
 
