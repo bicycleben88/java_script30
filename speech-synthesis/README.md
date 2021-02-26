@@ -1,6 +1,6 @@
 # Day 23 Speech Synthesis
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/hHEpYhAFJLE)
 
 ## Task
 
