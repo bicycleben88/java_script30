@@ -1,6 +1,6 @@
 # Day 24 Sticky Nav
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/OOnnofcru9U)
 
 ## Task
 
