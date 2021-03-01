@@ -11,6 +11,7 @@ function handleEnter() {
     150
   );
 
+  background.classList.add("open");
   const dropdown = this.querySelector(".dropdown");
   const dropdownCoords = dropdown.getBoundingClientRect();
   const navCoords = nav.getBoundingClientRect();
@@ -20,7 +21,7 @@ function handleEnter() {
     top: dropdownCoords.top - navCoords.top,
     left: dropdownCoords.left - navCoords.left,
   };
-  background.classList.add("open");
+
   background.style.setProperty("width", `${coords.width}px`);
   background.style.setProperty("height", `${coords.height}px`);
   background.style.setProperty(

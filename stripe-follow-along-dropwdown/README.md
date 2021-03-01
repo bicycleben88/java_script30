@@ -1,6 +1,6 @@
 # Day 26 Strip Follow Along Dropdown
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/1SZ2opkquJc)
 
 ## Task
 
@@ -16,14 +16,14 @@
 ## JavaScript
 
 > - Grab DOM elements & add event listeners to them
-> - ![dom elements and there listeners](images/dom-listeners.png)
+> - ![dom elements and there listeners](images/dom.png)
 > - handleEnter()
 >   - add css class to event listener w/ setTimeout to give css transition time to animate effect
 >   - ![add css classes](images/trigger-js.png)
 >   - grab the dom element to add a background to & get its coordinates
 >   - create coordinates object to account for location of the nav bar & use them for css property values
 >   - set css for background
-> - ![dropdown css values](images/dropdown.png)
+> - ![dropdown css values](images/coords.png)
 > - handleLeave(): remove css classes to hide \<li> content & background
 
 ## Source
