@@ -1,7 +1,5 @@
 # Day 25 Event Capture, Propogation, Bubbling & Once
 
-[Walkthru of Code](https://www.youtube.com/watch?v=lRuZEltTHLc)
-
 ## Task
 
 > - Review event properties
