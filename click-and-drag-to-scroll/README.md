@@ -1,6 +1,6 @@
 # Day 27 Click & Drag to Scroll
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/33CnTBIYSAk)
 
 ## Task
 
@@ -26,6 +26,10 @@
 > - ![walk function](images/walk.png)
 > - removeClass removes class from DOM element & makes walk() end
 > - ![remove class function](images/remove.png)
+
+## Notes
+
+> - .scrollLeft gets or sets the number of pixels that an element's content is scrolled from its left edge
 
 ## Source
 

@@ -14,7 +14,7 @@ function walk(e) {
   if (!isDown) return;
   e.preventDefault();
   const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 4;
+  const walk = (x - startX) * 2;
   slider.scrollLeft = scrollLeft - walk;
 }
 
