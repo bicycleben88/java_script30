@@ -1,6 +1,6 @@
 # Day 28 Video Speed Controller
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/SeD62byoHNc)
 
 ## Task
 
