@@ -1,6 +1,6 @@
 # Day 29 Countdown Timer
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/aX_q74a-puY)
 
 ## Task
 
