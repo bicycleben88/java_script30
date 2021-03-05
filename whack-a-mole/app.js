@@ -42,7 +42,7 @@ function startGame() {
 function bonk(e) {
   if (!e.isTrusted) return "You Can't Game my Game, man";
   score++;
-  this.classList.remove("up");
+  this.parentNode.classList.remove("up");
   scoreBoard.textContent = score;
 }
 

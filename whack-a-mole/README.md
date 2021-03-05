@@ -1,6 +1,6 @@
 # Day 30 Whack-a-Mole
 
-[Walkthru of Code](add.url.here)
+[Walkthru of Code](https://youtu.be/zCHNo3s1_2A)
 
 ## Task
 
