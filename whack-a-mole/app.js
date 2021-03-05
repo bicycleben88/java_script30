@@ -5,10 +5,6 @@ let lastHole;
 let timeUp = false;
 let score = 0;
 
-function randomTime(min, max) {
-  return Math.round(Math.random() * (max - min) + min);
-}
-
 function randomHole(holes) {
   const index = Math.floor(Math.random() * holes.length);
   const hole = holes[index];
@@ -17,6 +13,10 @@ function randomHole(holes) {
   }
   lastHole = hole;
   return hole;
+}
+
+function randomTime(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
 }
 
 function peep() {
