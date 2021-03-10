@@ -39,5 +39,5 @@
 ## Contact
 
 > - [LinkedIn](https://www.linkedin.com/in/benjamin-alt-higginbotham/)
-> - [Portfolio](https://my-portfolio.benjamin-higginbotham.vercel.app/)
+> - [Portfolio](https://higginbotham.fun/)
 > - [Tweet @BenMichaelJord1](https://twitter.com/BenMichaelJord1)
